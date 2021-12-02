@@ -8,6 +8,8 @@ public class Array {
 		int[] r=new int[5];
 		Scanner input=new Scanner(System.in);
 		System.out.println("Enter value");
+
+		System.out.println();
 		for(int i=0;i<r.length;i++) {
 			int num=input.nextInt();
 			r[i]=num;
